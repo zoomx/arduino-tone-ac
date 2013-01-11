@@ -4,7 +4,7 @@
 = toneAC Frequency Limits =
 
 || *Arduino CPU speed* || *Minimum Frequency* || *Maximum Frequency* ||
-||16 Mhz||1 Hz||2.66 MHz||
+||16 Mhz||2 Hz||2.66 MHz||
 ||8 Mhz||1 Hz||1.33 MHz||
 ||4 Mhz||1 Hz||666.66 kHz||
 ||2 Mhz||1 Hz||333.33 kHz||
