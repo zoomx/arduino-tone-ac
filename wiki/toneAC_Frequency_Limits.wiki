@@ -3,7 +3,11 @@
 
 = toneAC Frequency Limits =
 
-These are theoretical limits. Due to overhead and your sketch probably doing something else, the maximum frequency will be lower. For the highest frequency possible when calling toneAC, the parameters length should be 0 and background set to true.
+The table below are theoretical limits. Due to overhead and your sketch probably doing something else, the maximum frequency will be lower. For the highest frequency possible when calling toneAC, specify only the frequency parameter, for example:
+
+{{{toneAC(frequency);}}}
+
+This will play the specified frequency till you terminate it with toneAC();
 
 || *Arduino CPU speed* || *Minimum Frequency* || *Maximum Frequency* ||
 ||16 Mhz||1 Hz||2.66 MHz||
